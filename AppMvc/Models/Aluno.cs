@@ -25,6 +25,7 @@ namespace AppMvc.Models
         [Required(ErrorMessage = "O campo {0} é requerido")]
         public string Cpf { get; set; }
 
+        [DisplayName("Data da Matrícula")]
         public DateTime DataMatricula { get; set; }
 
         public bool Ativo { get; set; }

@@ -31,7 +31,7 @@ namespace AppMvc.Models
             return new ApplicationDbContext();
         }
 
-        public DbSet<AppMvc.Models.Aluno> Alunos { get; set; }
+        public DbSet<Aluno> Alunos { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
