@@ -17,6 +17,7 @@ namespace AppMvc.Controllers
         private readonly ApplicationDbContext db = new ApplicationDbContext();
 
         [HttpGet]
+        [AllowAnonymous]
         [OutputCache(Duration = 60)]
         [Route("listar-alunos")]
         public async Task<ActionResult> Index()
