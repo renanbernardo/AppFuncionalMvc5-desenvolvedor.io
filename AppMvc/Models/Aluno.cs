@@ -28,6 +28,8 @@ namespace AppMvc.Models
         [DisplayName("Data da Matrícula")]
         public DateTime DataMatricula { get; set; }
 
+        public string Descricao { get; set; }
+
         public bool Ativo { get; set; }
     }
 }
